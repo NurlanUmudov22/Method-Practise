@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace MethodPractise.Models
 {
-    internal class BaseEntity
+    internal abstract class BaseEntity
     {
 
-        public string email;
-        public string password;
-
+        public int id;
     }
 }

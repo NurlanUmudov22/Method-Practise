@@ -1,0 +1,14 @@
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\bin\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.exe
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\bin\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.deps.json
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\bin\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.runtimeconfig.json
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\bin\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.dll
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\bin\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.pdb
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.AssemblyInfoInputs.cache
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.AssemblyInfo.cs
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.csproj.CoreCompileInputs.cache
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.dll
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\refint\Homework-Encapsulation-Abstraction-Classwork.dll
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.pdb
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\Homework-Encapsulation-Abstraction-Classwork.genruntimeconfig.cache
+C:\Users\nurlanmu\Desktop\Csharp hometask\MethodPractise\MethodPractise\obj\Debug\net6.0\ref\Homework-Encapsulation-Abstraction-Classwork.dll

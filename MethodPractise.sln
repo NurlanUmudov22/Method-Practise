@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodPractise", "MethodPractise\MethodPractise.csproj", "{D45633ED-F20B-4D3F-A023-32AA8C458174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework-Encapsulation-Abstraction-Classwork", "MethodPractise\Homework-Encapsulation-Abstraction-Classwork.csproj", "{D45633ED-F20B-4D3F-A023-32AA8C458174}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

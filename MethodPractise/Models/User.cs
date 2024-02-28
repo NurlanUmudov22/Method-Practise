@@ -8,9 +8,11 @@ namespace MethodPractise.Models
 {
     internal class User : BaseEntity
     {
-        public int id;
+        
         public string fullname;
         public int age;
+        public string email;
+        public string password;
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using MethodPractise.Services;
+﻿using MethodPractise.Helpers.Constants;
+using MethodPractise.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace MethodPractise.Controllers
 {
     internal class UserController
     {
-        public UserService userService;
+        private readonly UserService userService;
 
 
 
@@ -21,11 +22,33 @@ namespace MethodPractise.Controllers
 
         public void GetById()
         {
-            var users = userService.GetAll();
 
-            var result = userService.GetById(users, 1);
+            Console.WriteLine("Add user id:");
+            UserId: string strId = Console.ReadLine();
 
-            Console.WriteLine(result.fullname + " " + result.id);
+
+            int id;
+
+            bool isCorrectId = int.TryParse(strId, out id);
+
+            if (isCorrectId)
+            {
+                var user = userService.GetById(userService.GetAll(), 2);
+                if (user == null)
+                {
+                    Console.WriteLine(ResponseMessages.Notfound);
+                    return;
+                }
+
+                string result = user.fullname + "," + user.email + "," + user.age;
+                Console.WriteLine(result);
+
+            }
+            else
+            {
+                Console.WriteLine(ResponseMessages.IncorrectFormat);
+                goto UserId;
+            }
 
         }
 
@@ -37,7 +60,7 @@ namespace MethodPractise.Controllers
 
             foreach (var item in result)
             {
-                Console.WriteLine(item.fullname + "," + item.id + ","+ item.age);
+                Console.WriteLine(item.fullname + "," + item.email + ","+ item.age);
             }
         }
 

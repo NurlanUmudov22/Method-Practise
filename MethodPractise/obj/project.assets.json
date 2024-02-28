@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nurlanmu\\Desktop\\Csharp hometask\\MethodPractise\\MethodPractise\\MethodPractise.csproj",
-      "projectName": "MethodPractise",
-      "projectPath": "C:\\Users\\nurlanmu\\Desktop\\Csharp hometask\\MethodPractise\\MethodPractise\\MethodPractise.csproj",
+      "projectUniqueName": "C:\\Users\\nurlanmu\\Desktop\\Csharp hometask\\MethodPractise\\MethodPractise\\Homework-Encapsulation-Abstraction-Classwork.csproj",
+      "projectName": "Homework-Encapsulation-Abstraction-Classwork",
+      "projectPath": "C:\\Users\\nurlanmu\\Desktop\\Csharp hometask\\MethodPractise\\MethodPractise\\Homework-Encapsulation-Abstraction-Classwork.csproj",
       "packagesPath": "C:\\Users\\nurlanmu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nurlanmu\\Desktop\\Csharp hometask\\MethodPractise\\MethodPractise\\obj\\",
       "projectStyle": "PackageReference",

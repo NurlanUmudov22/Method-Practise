@@ -65,6 +65,12 @@ namespace MethodPractise.Services
         public User GetById(User[] users, int id)
         {
             return users.FirstOrDefault(m => m.id == id);
+
+
+
+            ////
+            //return users.Where(m=>m.id == id).FirstOrDefault();
+            ////
         }
 
 

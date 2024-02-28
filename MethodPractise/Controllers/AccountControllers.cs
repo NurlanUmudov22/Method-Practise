@@ -1,4 +1,5 @@
-﻿using MethodPractise.Models;
+﻿using MethodPractise.Helpers.Constants;
+using MethodPractise.Models;
 using MethodPractise.Services;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace MethodPractise.Controllers
     internal class AccountControllers
     {
 
-        public AccountService accountService;
+        private readonly AccountService accountService;
 
 
         public AccountControllers()
@@ -24,7 +25,72 @@ namespace MethodPractise.Controllers
         public void Login()
         {
 
-            //Again:
+
+            Console.WriteLine("Add your email:");
+            Email:  string email = Console.ReadLine();
+
+
+            if (!email.Contains("@"))
+            {
+                Console.WriteLine(ResponseMessages.IncorrectEmailFormat);
+                goto Email;
+            }
+
+
+            Console.WriteLine("Add your password");
+            string password = Console.ReadLine();
+
+            var response = accountService.Login(email, password);
+
+            if (response)
+            {
+                Console.WriteLine(ResponseMessages.LoginSuccess);
+            }
+            else
+            {
+                Console.WriteLine(ResponseMessages.LoginFailed);
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // Again:
             //Console.WriteLine("Add your email:");
             //string email = Console.ReadLine();
 
@@ -35,7 +101,7 @@ namespace MethodPractise.Controllers
             //User[] userr = accountService.GetAll();
 
             //User[] users = accountService.Login(userr, email, password);
-            
+
             //foreach (var item in users)
             //{
 
@@ -55,11 +121,6 @@ namespace MethodPractise.Controllers
             //        goto Again;
             //    }
 
-               
-
-
-
-            }
 
 
 
@@ -69,39 +130,16 @@ namespace MethodPractise.Controllers
 
 
 
-            //Login:
-            //Console.WriteLine("Add your email:");
-            //string email = Console.ReadLine();
-            //Console.WriteLine("Write your password");
-            //string password = Console.ReadLine();
-            //if (email == email || password == null)
-            //{
-            //    Console.WriteLine("Login denied");
-            //    goto Login;
-            //}
-            //else 
-            //{
-            //    Console.WriteLine("Login successfully");
-            //}
-
-
-            //var usersq = accountService.GetAll();
-
-            //User[] user = accountService.Login(usersq, email, password);
-
-            //if (ema)
-
-            //Console.WriteLine("Add your password:");
-            //string password = Console.ReadLine();
-
-            //User[] user = accountService.Login(usersq, email, password);
 
 
 
 
 
-        }
 
+
+
+
+        } 
 
     }
 }
